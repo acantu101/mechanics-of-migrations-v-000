@@ -10,7 +10,7 @@ def create_table
   hometown TEXT
   )
 SQL
- 
+
 ActiveRecord::Base.connection.execute(sql)
 end
 
